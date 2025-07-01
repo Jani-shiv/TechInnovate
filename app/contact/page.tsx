@@ -60,7 +60,7 @@ export default function Contact() {
                     icon: <MapPin className="w-6 h-6 text-purple-500" />,
                     title: "Address",
                     content: "123 Innovation Street",
-                    subtitle: "San Francisco, CA 94105",
+                    subtitle: "Ahmedabad, Gujarat",
                   },
                   {
                     icon: <Clock className="w-6 h-6 text-orange-500" />,

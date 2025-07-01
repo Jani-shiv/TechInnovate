@@ -109,7 +109,7 @@ The platform covers 7 key innovation areas:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/jani-shiv/tech-innovation-platform.git
+git clone https://github.com/Jani-shiv/TechInnovate.git
 cd tech-innovation-platform
 ```
 
@@ -305,7 +305,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 **Support**
 
 - 📧 Email: shivjani2005@gmail.com
-- 🐛 Issues: [GitHub Issues](https://github.com/Jani-shiv/TechInnovate-p4/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/Jani-shiv/TechInnovate/issues)
 
 ---
 

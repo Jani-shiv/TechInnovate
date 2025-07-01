@@ -1,23 +1,16 @@
 /** @type {import('tailwindcss').Config} */
-const defaultConfig = require("shadcn/ui/tailwind.config")
-
 module.exports = {
-  ...defaultConfig,
   content: [
-    ...defaultConfig.content,
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./styles/**/*.{css,scss}",
+    "./hooks/**/*.{js,ts}",
+    "./lib/**/*.{js,ts}",
   ],
   theme: {
-    ...defaultConfig.theme,
     extend: {
-      ...defaultConfig.theme.extend,
       colors: {
-        ...defaultConfig.theme.extend.colors,
         primary: {
-          ...defaultConfig.theme.extend.colors.primary,
           50: "#eff6ff",
           100: "#dbeafe",
           200: "#bfdbfe",
@@ -30,7 +23,6 @@ module.exports = {
           900: "#1e3a8a",
         },
         secondary: {
-          ...defaultConfig.theme.extend.colors.secondary,
           50: "#f0fdf4",
           100: "#dcfce7",
           200: "#bbf7d0",
@@ -44,7 +36,6 @@ module.exports = {
         },
       },
       animation: {
-        ...defaultConfig.theme.extend.animation,
         "bounce-slow": "bounce 3s infinite",
         "pulse-slow": "pulse 4s infinite",
       },
@@ -55,5 +46,7 @@ module.exports = {
       },
     },
   },
-  plugins: [...defaultConfig.plugins, require("tailwindcss-animate")],
-}
+  plugins: [
+    require("tailwindcss-animate"),
+  ],
+};

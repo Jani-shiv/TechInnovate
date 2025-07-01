@@ -129,9 +129,7 @@ export default function Footer() {
           transition={{ duration: 0.6, delay: 0.4 }}
           viewport={{ once: true }}
         >
-          <p className="text-gray-600 text-sm">
-            © 2024 TechInnovate. All rights reserved. Built with ❤️ for innovation.
-          </p>
+          
         </motion.div>
       </div>
     </footer>

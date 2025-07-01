@@ -53,7 +53,7 @@ export default function Contact() {
                   {
                     icon: <Phone className="w-6 h-6 text-green-500" />,
                     title: "Phone",
-                    content: "+1 (555) 123-4567",
+                    content: "+91 11111 11111",
                     subtitle: "Mon-Fri, 9AM-6PM PST",
                   },
                   {

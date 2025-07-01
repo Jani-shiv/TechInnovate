@@ -36,28 +36,28 @@ A cutting-edge, fully animated tech innovation platform built with Next.js, Reac
 
 ## 🏗️ **Project Structure**
 
-\`\`\`
+```
 ├── app/                          # Next.js App Router pages
 │   ├── about/                    # About page
 │   ├── contact/                  # Contact page
 │   ├── submit-idea/              # Idea submission form
 │   ├── themes/                   # Theme overview and individual pages
-│   │   └── [id]/                 # Dynamic theme pages
-│   ├── layout.tsx                # Root layout with navigation
-│   ├── page.tsx                  # Home page
-│   ├── globals.css               # Global styles
-│   └── not-found.tsx             # 404 error page
+│   │   └── [id]/                # Dynamic theme pages
+│   ├── layout.tsx               # Root layout with navigation
+│   ├── page.tsx                 # Home page
+│   ├── globals.css              # Global styles
+│   └── not-found.tsx            # 404 error page
 ├── components/                   # Reusable components
-│   ├── ui/                       # shadcn/ui components
-│   ├── Navbar.tsx                # Animated navigation
-│   ├── Footer.tsx                # Site footer
-│   ├── Button.tsx                # Custom button component
-│   ├── ThemeCard.tsx             # Theme showcase cards
-│   └── FloatingCTA.tsx           # Floating call-to-action
-├── hooks/                        # Custom React hooks
-├── lib/                          # Utility functions
-└── public/                       # Static assets
-\`\`\`
+│   ├── ui/                      # shadcn/ui components
+│   ├── Navbar.tsx               # Animated navigation
+│   ├── Footer.tsx               # Site footer
+│   ├── Button.tsx               # Custom button component
+│   ├── ThemeCard.tsx            # Theme showcase cards
+│   └── FloatingCTA.tsx          # Floating call-to-action
+├── hooks/                       # Custom React hooks
+├── lib/                         # Utility functions
+└── public/                      # Static assets
+```
 
 ## 🎯 **Innovation Themes**
 
@@ -108,34 +108,37 @@ The platform covers 7 key innovation areas:
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
-   git clone https://github.com/your-username/tech-innovation-platform.git
-   cd tech-innovation-platform
-   \`\`\`
+```bash
+git clone https://github.com/jani-shiv/tech-innovation-platform.git
+cd tech-innovation-platform
+```
 
 2. **Install dependencies**
-   \`\`\`bash
-   npm install
-   # or
-   yarn install
-   \`\`\`
+```bash
+npm install
+# or
+yarn install
+```
 
 3. **Run the development server**
-   \`\`\`bash
-   npm run dev
-   # or
-   yarn dev
-   \`\`\`
+```bash
+npm run dev
+# or
+yarn dev
+```
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### Build for Production
 
-\`\`\`bash
+```bash
 npm run build
 npm start
-\`\`\`
+# or
+yarn build
+yarn start
+```
 
 ## 🛠️ **Tech Stack**
 
@@ -196,24 +199,25 @@ npm start
 ## 🎨 **Design System**
 
 ### Color Palette
-\`\`\`css
-/* Primary Colors */
---primary-blue: #3B82F6      /* Bright blue for CTAs */
---primary-mint: #10B981      /* Mint green for success */
---primary-purple: #8B5CF6    /* Purple for highlights */
+```css
+:root {
+  /* Primary Colors */
+  --primary-blue: #3B82F6;      /* Bright blue for CTAs */
+  --primary-mint: #10B981;      /* Mint green for success */
+  --primary-purple: #8B5CF6;    /* Purple for highlights */
 
-/* Neutral Colors */
---gray-50: #F9FAFB          /* Light backgrounds */
---gray-100: #F3F4F6         /* Card backgrounds */
---gray-500: #6B7280         /* Text secondary */
---gray-900: #111827         /* Text primary */
+  /* Neutral Colors */
+  --gray-50: #F9FAFB;          /* Light backgrounds */
+  --gray-100: #F3F4F6;         /* Card backgrounds */
+  --gray-500: #6B7280;         /* Text secondary */
+  --gray-900: #111827;         /* Text primary */
 
-/* Semantic Colors */
---success: #10B981          /* Success states */
---warning: #F59E0B          /* Warning states */
---error: #EF4444            /* Error states */
-\`\`\`
-
+  /* Semantic Colors */
+  --success: #10B981;          /* Success states */
+  --warning: #F59E0B;          /* Warning states */
+  --error: #EF4444;            /* Error states */
+}
+```
 ### Typography
 - **Headings**: Inter font family, bold weights
 - **Body**: Inter font family, regular weights
@@ -259,19 +263,26 @@ We welcome contributions! Please follow these steps:
 
 1. **Fork the repository**
 2. **Create a feature branch**
-   \`\`\`bash
+   ```bash
    git checkout -b feature/amazing-feature
-   \`\`\`
-3. **Commit your changes**
-   \`\`\`bash
-   git commit -m 'Add amazing feature'
-   \`\`\`
-4. **Push to the branch**
-   \`\`\`bash
-   git push origin feature/amazing-feature
-   \`\`\`
-5. **Open a Pull Request**
+   ```
 
+3. **Make your changes and stage them**
+   ```bash
+   git add .
+   git commit -m "feat: add amazing feature"
+   ```
+
+4. **Push to the branch**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+
+5. **Open a Pull Request**
+   - Go to the repository on GitHub
+   - Click "New Pull Request"
+   - Select your feature branch
+   - Add description and request review
 ### Development Guidelines
 - Follow TypeScript best practices
 - Use Tailwind CSS for styling
@@ -293,10 +304,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 **Support**
 
-- 📧 Email: support@techinnovate.com
-- 💬 Discord: [Join our community](https://discord.gg/techinnovate)
-- 🐛 Issues: [GitHub Issues](https://github.com/your-username/tech-innovation-platform/issues)
-- 📖 Documentation: [Full Documentation](https://docs.techinnovate.com)
+- 📧 Email: shivjani2005@gmail.com
+- 🐛 Issues: [GitHub Issues](https://github.com/Jani-shiv/TechInnovate-p4/issues)
 
 ---
 
